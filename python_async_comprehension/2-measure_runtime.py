@@ -8,7 +8,7 @@ from typing import List
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
-async def measure_runtime() -> int:
+async def measure_runtime() -> float:
     """Measures total runtime of 4 parallel async comprehensions"""
 
     start = time.time()
