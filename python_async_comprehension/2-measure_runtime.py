@@ -22,4 +22,4 @@ async def measure_runtime() -> int:
 
     end = time.time()
 
-    return start - end
+    return end - start
